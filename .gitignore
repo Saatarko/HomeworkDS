@@ -9,3 +9,5 @@ alembic.ini
 __pycache__/
 .keras
 .env
+.neptune
+
