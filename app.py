@@ -1,8 +1,11 @@
 import os
+
 import subprocess
+
 from flask import Flask
 
 app = Flask(__name__)
+
 
 # Получаем порт из переменной окружения
 PORT = int(os.getenv("PORT", 8080))
@@ -16,3 +19,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=PORT)
+
